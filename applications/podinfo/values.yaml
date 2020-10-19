@@ -1,0 +1,8 @@
+clusters:
+- name: localhost
+  project: default
+  destinationServer: https://kubernetes.default.svc
+  apps:
+    podinfo:
+      enabled: ture
+      version: 5.0.2
